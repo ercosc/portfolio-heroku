@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<div class="container">
+    <div class="site-section">
+        <div class="text-center">
+            <h2 class="text-black h1 site-section-heading text-center">Delete {{object.title}}</h2>
+        </div>
+
+        <form action='.' method='POST'>{% csrf_token %}
+            <h1>Do you want to delete the Book "{{ object.title }}"?</h1>
+            <p><input type='submit' value='Yes' class="btn btn-danger" />  <a href='{{object.get_absolute_url}}' class="btn btn-secondary">Cancel</a></p>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

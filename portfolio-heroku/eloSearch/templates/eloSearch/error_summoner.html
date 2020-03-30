@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<div class="site-section">
+    <div class="container">
+        <div class="text-center pb-1">
+            <h2 class="text-black h1 site-section-heading">Status code: {{data.status.status_code}}</h2>
+        </div>
+        <p>{{data.status.message}}</p>
+        <a href="{% url 'lol:form' %}" class="btn btn-primary btn-block">voltar</a>
+    </div>
+</div>
+{% endblock %}

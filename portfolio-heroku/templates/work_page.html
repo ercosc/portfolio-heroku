@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<br>
+<section class="site-section" id="work-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="text-black h1 site-section-heading text-center">Our Works</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque,
+                    delectus odio iure explicabo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="number-behind">01.</div>
+                    <h2 class="text-primary"><a href="{% url 'book:book_list' %}">Trabalho Bookshelf</a></h2>
+                    <p class="mb-4">Aplicativo de estante de livros, prático e fácil. para observar seus livros de forma
+                    prática.</p>
+                    <ul class="list-unstyled ul-check primary">
+                        <li>Customer Experience</li>
+                        <li>Product Management</li>
+                        <li>Proof of Concept</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="number-behind">02.</div>
+                    <h2 class="text-primary"><a href="{% url 'lol:form' %}">League of Legends API</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla
+                        qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                    <ul class="list-unstyled ul-check primary">
+                        <li>Web Design</li>
+                        <li>Branding</li>
+                        <li>Web &amp; App Development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="number-behind">03.</div>
+                    <h2 class="text-primary"><a href="{% url 'champ:all' %}">Search Champions</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla
+                        qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                    <ul class="list-unstyled ul-check primary">
+                        <li>Social Media</li>
+                        <li>Paid Campaigns</li>
+                        <li>Marketing &amp; SEO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="section ft-feature-1">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <div class="col-12 bg-black w-100 ft-feature-1-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+
+                        <img src="{% static 'images/about_1.jpg' %}" alt="Image" class="img-fluid mb-4 mb-lg-0">
+
+                    </div>
+                    <div class="col-lg-3 ml-auto">
+                        <div class="mb-5">
+                            <h3 class="d-flex align-items-center"><span
+                                    class="icon icon-beach_access mr-2"></span><span>Strategy</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam
+                                nesciunt.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+
+                        <div>
+                            <h3 class="d-flex align-items-center"><span class="icon icon-build mr-2"></span><span>Web Development</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam
+                                nesciunt.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="mb-5">
+                            <h3 class="d-flex align-items-center"><span
+                                    class="icon icon-format_paint mr-2"></span><span>Art Direction</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam
+                                nesciunt.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+
+                        <div>
+                            <h3 class="d-flex align-items-center"><span
+                                    class="icon icon-question_answer mr-2"></span><span>Copywriting</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam
+                                nesciunt.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section testimonial-wrap" id="testimonial">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide-one-item home-slider owl-carousel">
+        <div>
+            <div class="testimonial">
+
+                <blockquote class="mb-5">
+                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
+                        aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
+                        consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                </blockquote>
+
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="{% static 'images/person_3.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
+                    <p>John Smith</p>
+                </figure>
+            </div>
+        </div>
+        <div>
+            <div class="testimonial">
+
+                <blockquote class="mb-5">
+                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
+                        aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
+                        consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="{% static 'images/person_2.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
+                    <p>Christine Aguilar</p>
+                </figure>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="testimonial">
+
+                <blockquote class="mb-5">
+                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
+                        aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
+                        consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="{% static 'images/person_4.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
+                    <p>Robert Spears</p>
+                </figure>
+
+
+            </div>
+        </div>
+
+        <div>
+            <div class="testimonial">
+
+                <blockquote class="mb-5">
+                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit
+                        aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
+                        consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                    <div><img src="{% static 'images/person_5.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
+                    <p>Bruce Rogers</p>
+                </figure>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

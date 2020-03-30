@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<div class="site-section">
+    <div class="container">
+        <div class="text-center pb-1">
+            <h2 class="text-black h1 site-section-heading">Estante de Livros</h2>
+        </div>
+        <a href="{%url 'book:book_create' %}" class="btn btn-primary btn-block">Add new book</a>
+        <div class="list-group">
+            {% for instance in object_list %}
+            <a href="{{instance.get_absolute_url}}" type="button" class="list-group-item list-group-item-action">
+                {{instance.title}} - {{instance.publisher.name}}</a>
+            {% endfor %}
+        </div>
+        <a href="{%url 'book:book_create' %}" class="btn btn-primary btn-block">Add new book</a>
+    </div>
+</div>
+{% endblock %}

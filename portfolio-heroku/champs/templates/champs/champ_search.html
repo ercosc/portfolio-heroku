@@ -1,0 +1,1210 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<section class="site-section" id="work-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center">
+                <h2 class="text-black h1 site-section-heading text-center">Champions</h2>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Aatrox.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Aatrox.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Aatrox.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ahri.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ahri.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ahri.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Akali.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Akali.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Akali.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Alistar.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Alistar.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Alistar.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Amumu.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Amumu.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Amumu.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Anivia.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Anivia.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Anivia.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Annie.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Annie.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Annie.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Aphelios.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Aphelios.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Aphelios.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ashe.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ashe.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ashe.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.AurelionSol.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/AurelionSol.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.AurelionSol.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Azir.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Azir.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Azir.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Bard.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Bard.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Bard.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Blitzcrank.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Blitzcrank.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Blitzcrank.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Brand.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Brand.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Brand.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Braum.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Braum.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Braum.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Caitlyn.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Caitlyn.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Caitlyn.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Camille.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Camille.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Camille.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Cassiopeia.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Cassiopeia.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Cassiopeia.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Chogath.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Chogath.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Chogath.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Corki.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Corki.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Corki.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Darius.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Darius.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Darius.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Diana.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Diana.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Diana.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.DrMundo.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/DrMundo.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.DrMundo.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Draven.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Draven.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Draven.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ekko.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ekko.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ekko.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Elise.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Elise.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Elise.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Evelynn.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Evelynn.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Evelynn.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ezreal.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ezreal.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ezreal.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Fiddlesticks.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Fiddlesticks.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Fiddlesticks.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Fiora.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Fiora.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Fiora.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Fizz.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Fizz.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Fizz.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Galio.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Galio.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Galio.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Gangplank.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Gangplank.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Gangplank.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Garen.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Garen.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Garen.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Gnar.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Gnar.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Gnar.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Gragas.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Gragas.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Gragas.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Graves.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Graves.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Graves.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Hecarim.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Hecarim.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Hecarim.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Heimerdinger.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Heimerdinger.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Heimerdinger.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Illaoi.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Illaoi.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Illaoi.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Irelia.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Irelia.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Irelia.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ivern.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ivern.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ivern.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.JarvanIV.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/JarvanIV.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.JarvanIV.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Jax.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Jax.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Jax.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Jayce.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Jayce.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Jayce.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Jhin.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Jhin.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Jhin.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Jinx.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Jinx.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Jinx.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kaisa.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kaisa.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kaisa.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kalista.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kalista.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kalista.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Karma.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Karma.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Karma.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Karthus.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Karthus.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Karthus.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kassadin.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kassadin.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kassadin.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Katarina.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Katarina.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Katarina.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kayle.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kayle.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kayle.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kayn.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kayn.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kayn.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kennen.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kennen.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kennen.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Khazix.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Khazix.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Khazix.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kindred.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kindred.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kindred.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Kled.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Kled.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Kled.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.KogMaw.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/KogMaw.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.KogMaw.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Leblanc.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Leblanc.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Leblanc.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.LeeSin.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/LeeSin.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.LeeSin.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Leona.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Leona.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Leona.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Lissandra.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Lissandra.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Lissandra.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Lucian.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Lucian.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Lucian.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Lulu.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Lulu.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Lulu.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Lux.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Lux.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Lux.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Malphite.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Malphite.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Malphite.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Malzahar.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Malzahar.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Malzahar.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Maokai.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Maokai.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Maokai.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.MasterYi.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/MasterYi.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.MasterYi.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.MissFortune.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/MissFortune.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.MissFortune.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Mordekaiser.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Mordekaiser.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Mordekaiser.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Morgana.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Morgana.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Morgana.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nami.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nami.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nami.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nasus.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nasus.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nasus.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nautilus.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nautilus.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nautilus.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Neeko.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Neeko.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Neeko.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nidalee.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nidalee.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nidalee.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nocturne.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nocturne.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nocturne.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Nunu.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Nunu.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Nunu.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Olaf.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Olaf.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Olaf.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Orianna.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Orianna.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Orianna.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ornn.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ornn.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ornn.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Pantheon.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Pantheon.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Pantheon.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Poppy.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Poppy.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Poppy.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Pyke.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Pyke.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Pyke.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Qiyana.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Qiyana.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Qiyana.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Quinn.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Quinn.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Quinn.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Rakan.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Rakan.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Rakan.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Rammus.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Rammus.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Rammus.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.RekSai.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/RekSai.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.RekSai.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Renekton.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Renekton.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Renekton.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Rengar.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Rengar.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Rengar.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Riven.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Riven.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Riven.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Rumble.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Rumble.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Rumble.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ryze.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ryze.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ryze.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sejuani.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sejuani.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sejuani.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Senna.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Senna.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Senna.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sett.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sett.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sett.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Shaco.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Shaco.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Shaco.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Shen.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Shen.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Shen.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Shyvana.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Shyvana.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Shyvana.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Singed.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Singed.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Singed.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sion.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sion.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sion.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sivir.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sivir.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sivir.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Skarner.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Skarner.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Skarner.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sona.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sona.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sona.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Soraka.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Soraka.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Soraka.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Swain.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Swain.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Swain.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Sylas.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Sylas.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Sylas.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Syndra.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Syndra.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Syndra.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.TahmKench.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/TahmKench.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.TahmKench.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Taliyah.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Taliyah.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Taliyah.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Talon.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Talon.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Talon.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Teemo.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Taric.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Taric.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Teemo.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Teemo.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Teemo.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Thresh.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Thresh.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Thresh.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Tristana.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Tristana.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Tristana.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Trundle.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Trundle.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Trundle.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Tryndamere.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Tryndamere.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Tryndamere.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.TwistedFate.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/TwistedFate.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.TwistedFate.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Twitch.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Twitch.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Twitch.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Udyr.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Udyr.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Udyr.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Urgot.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Urgot.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Urgot.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Varus.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Varus.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Varus.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Vayne.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Vayne.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Vayne.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Veigar.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Veigar.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Veigar.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Velkoz.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Velkoz.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Velkoz.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Vi.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Vi.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Vi.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Viktor.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Viktor.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Viktor.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.TwistedFate.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/TwistedFate.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.TwistedFate.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Vladimir.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Vladimir.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Vladimir.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Volibear.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Volibear.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Volibear.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Warwick.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Warwick.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Warwick.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.MonkeyKing.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/MonkeyKing.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.MonkeyKing.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Xayah.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Xayah.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Xayah.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Xerath.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Xerath.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Xerath.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.XinZhao.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/XinZhao.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.XinZhao.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Yasuo.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Yasuo.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Yasuo.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Yorick.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Yorick.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Yorick.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Yuumi.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Yuumi.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Yuumi.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.TwistedFate.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/TwistedFate.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.TwistedFate.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Zac.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Zac.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Zac.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Zed.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Zed.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Zed.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Ziggs.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Ziggs.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Ziggs.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Zilean.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Zilean.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Zilean.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Zoe.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Zoe.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Zoe.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+            <a class="col-md-3 col-lg-2 card" href="{% url 'champ:name' data.Zyra.id %}">
+                <img src="http://ddragon.leagueoflegends.com/cdn/10.6.1/img/champion/Zyra.png" class="img-fluid">
+                <div class="class-body">
+                    <h2 class="text-center">{{data.Zyra.name}}</h2>
+                    <span class="h5 text-center"></span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+{% endblock %}

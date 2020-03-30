@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<div class="container">
+    <div class="site-section">
+        <div class="text-center">
+            <h2 class="text-black h1 site-section-heading text-center">Update {{object.title}}</h2>
+        </div>
+        <form action='.' method='POST'>
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input class="btn btn-primary" type='submit' value='Save' />
+            <a href="{{object.get_absolute_url}}" class="btn btn-secondary">Voltar</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

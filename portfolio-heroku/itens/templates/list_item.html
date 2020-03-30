@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<section class="site-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center">
+                <h2 class="text-black h1 site-section-heading text-center">Item List</h2>
+            </div>
+        </div>
+
+        {% for item in index %}
+        {% if item.gold.purchasable == True %}
+        <div class="row" id="#{{data.i}}">
+            <div class="col-1 lg-12">
+                <img src="{{image}}{{item.image.full}}">
+            </div>
+
+            <div class="col-8 lg-12">
+                <h2>{{ item.name }} </h2>
+                <h5>{{ item.description|safe }}</h5>
+            </div>
+
+            <div class="col-3 lg-12">
+                <h5>Gold: {{item.gold.base}}</h5>
+                <a href="#{{forloop.counter}}">
+                {% for a in item.into %}
+                <img src="{{image}}{{a}}.png">
+                {% endfor %}
+                </a>
+            </div>
+
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
